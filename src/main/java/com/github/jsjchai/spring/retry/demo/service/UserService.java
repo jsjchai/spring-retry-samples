@@ -28,9 +28,8 @@ public class UserService {
         throw new RetryException("新增失败");
     }
 
-
     @Recover
-    public void recover(RemoteAccessException e) {
+    public void recover(RetryException e) {
         // ... panic
     }
 }
