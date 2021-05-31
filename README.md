@@ -1,7 +1,7 @@
 ## [重试框架 spring-retry](https://github.com/spring-projects/spring-retry)
 * @Retryable
 ```java
-/**
+   /**
      * 默认重试三次
      */
     @Retryable(RetryException.class)
